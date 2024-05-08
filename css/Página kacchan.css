@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
 
 blockquote {
 	font: 50px Permanent Marker;
@@ -21,16 +23,16 @@ blockquote {
   margin-right: auto;
   border-radius: 100%;
 }
-
-header {
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-  }
+.img2{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
   
   .strokeme
   {
 	font: 60px Bangers;  
+	text-align: center;
 	color: rgb(0, 0, 0);
 	  text-shadow:
 	  -3px -3px 0 #ffffff,
@@ -39,3 +41,41 @@ header {
 	  3px 3px 0 #ffffff;
 	  
   }
+  a {
+	color: rgb(221, 90, 3);
+  }
+  .b{
+font: 40px Sedgwick Ave Display;
+text-align: center;
+	color: rgb(0, 0, 0);
+	  text-shadow:
+	  -3px -3px 0 #ffffff,
+	  3px -3px 0 #ffffff,
+	  -3px 3px 0 #ffffff,
+	  3px 3px 0 #ffffff;
+  }
+
+  .c{
+	font: 60px;
+text-align: center;
+	color: rgb(0, 0, 0);
+	  text-shadow:
+	  -3px -3px 0 #ffffff,
+	  3px -3px 0 #ffffff,
+	  -3px 3px 0 #ffffff,
+	  3px 3px 0 #ffffff;
+  }
+  .d
+  {
+	background-color: #d14b2f;
+	border: #d14b2f;
+	border-radius: 25%;
+	margin: 30px;
+	text-align: justify; 
+	margin-left: 200px; 
+	margin-right: 200px; 
+	margin-bottom: 60px; 
+	margin-top: 60px;
+  }
+
+  
