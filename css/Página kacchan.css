@@ -1,19 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
-@font-face {
-    font-family: 'DK-Full-Blast-Regular';
-    src:url('DK-Full-Blast-Regular.ttf.woff') format('woff'),
-        url('DK-Full-Blast-Regular.ttf.svg#DK-Full-Blast-Regular') format('svg'),
-        url('DK-Full-Blast-Regular.ttf.eot'),
-        url('DK-Full-Blast-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
-        font-weight: normal;
-        font-style: normal;
-}
-  
 blockquote {
-	font: 30px Permanent Marker;
-	width:450px;
+	font: 50px Permanent Marker;
+	height: fit-content;
 	padding-left: 70px;
 	padding-top: 18px;
 	padding-bottom: 18px;
@@ -21,6 +11,7 @@ blockquote {
 	border-top: 2px solid #ccc;
 	border-bottom: 2px solid #ccc;
 	margin: 5px;
+	text-align: center;
 } 
 
 .img1{
@@ -32,7 +23,6 @@ blockquote {
 }
 
 header {
-	background-color: #d14b2f;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -49,7 +39,3 @@ header {
 	  3px 3px 0 #ffffff;
 	  
   }
-
-  h2 { 
-	font-family: 'DK-Full-Blast-Regular';
- } 
