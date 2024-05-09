@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
 
 blockquote {
 	font: 50px Permanent Marker;
@@ -40,10 +40,7 @@ blockquote {
 	  3px 3px 0 #ffffff;
 	  
   }
-  a {
-	color: rgb(221, 90, 3);
-  }
-  .b{
+  .titulo1{
 font: 40px Sedgwick Ave Display;
 text-align: center;
 	color: rgb(0, 0, 0);
@@ -54,17 +51,7 @@ text-align: center;
 	  3px 3px 0 #ffffff;
   }
 
-  .c{
-	font: 60px;
-text-align: center;
-	color: rgb(0, 0, 0);
-	  text-shadow:
-	  -3px -3px 0 #ffffff,
-	  3px -3px 0 #ffffff,
-	  -3px 3px 0 #ffffff,
-	  3px 3px 0 #ffffff;
-  }
-  .d
+  .contenedor
   {
 	background-color: #fcd4cc;
 	text-align: justify; 
@@ -84,3 +71,7 @@ main, footer {
 	padding-bottom: 20px;
 }
   
+img.derecha{
+	float: right;
+	padding: 4dvb;
+}
