@@ -6,22 +6,20 @@
 blockquote {
 	font: 50px Permanent Marker;
 	height: fit-content;
-	padding-left: 70px;
-	padding-top: 18px;
-	padding-bottom: 18px;
-	padding-right: 10px;
-	border-top: 2px solid #ccc;
-	border-bottom: 2px solid #ccc;
+	padding: 18px 10px;
 	margin: 0px;
 	text-align: center;
-	background-color: #ffffff;
+	text-shadow:
+	-2px -2px 0 #ffffff,
+	2px -2px 0 #ffffff,
+	-2px 2px 0 #ffffff,
+	2px 2px 0 #ffffff;
 } 
 
 .img1{
     width: 400px;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   border-radius: 100%;
 }
 .img2{
@@ -69,18 +67,20 @@ text-align: center;
   .d
   {
 	background-color: #fcd4cc;
-	border-radius: 10%;
 	text-align: justify; 
-	margin-left: 100px; 
-	margin-right: 100px; 
-	margin-bottom: 60px; 
-	margin-top: 60px;
+	margin: 0 100px 100px 100px; 
 	font-size: 25px;
 	line-height: 1.5;
 	font-family: rubik, helvetica, arial, sans-serif;
 	color: #2e2e2e;
   }
-body{
+  main{
 	background-color: #d14b2f;
+	display: block;
+}
+main, footer {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
 }
   
