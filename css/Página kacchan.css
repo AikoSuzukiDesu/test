@@ -12,8 +12,9 @@ blockquote {
 	padding-right: 10px;
 	border-top: 2px solid #ccc;
 	border-bottom: 2px solid #ccc;
-	margin: 5px;
+	margin: 0px;
 	text-align: center;
+	background-color: #ffffff;
 } 
 
 .img1{
@@ -67,15 +68,19 @@ text-align: center;
   }
   .d
   {
-	background-color: #d14b2f;
-	border: #d14b2f;
-	border-radius: 25%;
-	margin: 30px;
+	background-color: #fcd4cc;
+	border-radius: 10%;
 	text-align: justify; 
-	margin-left: 200px; 
-	margin-right: 200px; 
+	margin-left: 100px; 
+	margin-right: 100px; 
 	margin-bottom: 60px; 
 	margin-top: 60px;
+	font-size: 25px;
+	line-height: 1.5;
+	font-family: rubik, helvetica, arial, sans-serif;
+	color: #2e2e2e;
   }
-
+body{
+	background-color: #d14b2f;
+}
   
