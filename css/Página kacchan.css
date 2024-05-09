@@ -13,6 +13,10 @@ blockquote {
 	2px -2px 0 #ffffff,
 	-2px 2px 0 #ffffff,
 	2px 2px 0 #ffffff;
+	background-image: url("D:/Aiko/Aiko - Usuario/Documentos/GitHub/test/imagen/fondo.png");
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
 } 
 a{
 	color: #d14b2f;
