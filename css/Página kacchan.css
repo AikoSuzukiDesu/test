@@ -14,10 +14,6 @@ blockquote {
 	2px -2px 0 #ffffff,
 	-2px 2px 0 #ffffff,
 	2px 2px 0 #ffffff;
-	background-image: url("D:/Aiko/Aiko - Usuario/Documentos/GitHub/test/imagen/fondo.png");
-    background-size: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
 } 
 
 .img1{
@@ -88,21 +84,3 @@ main, footer {
 	padding-bottom: 20px;
 }
   
-header{
-    background-image: url("D:/Aiko/Aiko - Usuario/Documentos/GitHub/test/imagen/Kacchan 3.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: block;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
-  footer{
-      background-image: url("D:/Aiko/Aiko - Usuario/Documentos/GitHub/test/imagen/Kacchan 2.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 30px;
-    text-align: center;
-  }
