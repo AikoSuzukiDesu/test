@@ -31,7 +31,7 @@ a{
     width: 400px;
 	display: block;
   margin: 0 auto;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 .img2{
 	width: 100%;
@@ -136,6 +136,17 @@ text-shadow:
 	  color: #2e2e2e;
 	  margin-top: 40px;
 	}
+	.contenedor2
+	{
+	  background-color: #fcd4cc;
+	  text-align: justify; 
+	  margin: 0 80px 0px 80px; 
+	  font-size: 25px;
+	  line-height: 1.5;
+	  font-family: rubik, helvetica, arial, sans-serif;
+	  color: #2e2e2e;
+	}
+
 	  /*grid*/
 	  .item1 {
 		grid-column-start: 1;
@@ -180,7 +191,7 @@ text-shadow:
 	  /*grid*/
 	  .item1 {
 		grid-column-start: 1;
-		grid-column-end: 5;
+		grid-column-end: 3;
 	  }
 	  .grid-container {
 		display: grid;
