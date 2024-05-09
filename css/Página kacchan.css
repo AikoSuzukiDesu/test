@@ -2,15 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
-header{
-	background-image: url("../imagen/Kacchan 3.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	display: block;
-	padding-top: 30px;
-	padding-bottom: 30px;
-  }
 
   footer{
 	background-image: url("../imagen/Kacchan 2.png");
@@ -101,6 +92,16 @@ img.derecha{
 img{
 	max-width: 100%;
 }
+header{
+	background-image: url("../imagen/Kacchan 3.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+  }
+
 @media screen and (min-width: 800px) {
 	.contenedor
 	{
