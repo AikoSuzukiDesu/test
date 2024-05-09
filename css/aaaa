@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #fcd4cc;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.img1{
+    width: 400px;
+	display: block;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.img1.a{
+	margin: 10px;
+	width: 300px;
+	display: block;
+	border: 10px solid rgba(255, 255, 255, 0.418);
+
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+</style>
+</head>
+<body>
+
+<h1>display: grid</h1>
+
+<p>Use display: grid; to make a block-level grid container:</p>
+
+<div class="grid-container">
+<div class="grid-item item1">
+<p>a</p>
+</div>
+  <div class="grid-item"><img class="img1 a" src="https://static.vecteezy.com/system/resources/previews/007/409/979/non_2x/people-icon-design-avatar-icon-person-icons-people-icons-are-set-in-trendy-flat-style-user-icon-set-vector.jpg"></div>
+  <div class="grid-item"><img class="img1 a" src="https://static.vecteezy.com/system/resources/previews/007/409/979/non_2x/people-icon-design-avatar-icon-person-icons-people-icons-are-set-in-trendy-flat-style-user-icon-set-vector.jpg"></div>
+  <div class="grid-item"><img class="img1 a" src="https://static.vecteezy.com/system/resources/previews/007/409/979/non_2x/people-icon-design-avatar-icon-person-icons-people-icons-are-set-in-trendy-flat-style-user-icon-set-vector.jpg"></div>
+  <div class="grid-item"><img class="img1 a" src="https://static.vecteezy.com/system/resources/previews/007/409/979/non_2x/people-icon-design-avatar-icon-person-icons-people-icons-are-set-in-trendy-flat-style-user-icon-set-vector.jpg"></div>
+</div>
+
+</body>
+</html>
